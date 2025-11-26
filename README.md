@@ -28,8 +28,11 @@ Notes:
 ![Keyboard layout](/Design_Reference/ibm-5324-datamaster.jpg)
 
 ## [KiCad Design](/KiCad)
-![Keyboard matrix layout](/Design_Reference/IBM_5324_Keyboard_Matrix_Table.png)
 [Schematic](/IBM_5324_Keyboard_Schematic.pdf)
+
+![Keyboard matrix layout](/Design_Reference/IBM_5324_Keyboard_Matrix_Table.png)
+
+![Keyboard 3D](/IBM_5324_Keyboard_3D.png)
 
 
 
