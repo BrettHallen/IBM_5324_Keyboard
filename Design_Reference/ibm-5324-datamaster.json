@@ -189,10 +189,9 @@
     "<i class='kb kb-Arrows-Left'></i>\n\n\n\nDEL",
     "<i class='kb kb-Arrows-Right'></i>\n\n\n\nINS",
     {
-      "x": 1.25,
+      "x": 1,
       "f": 3,
-      "w": 2,
-      "x2": -0.25
+      "w": 2.25
     },
     "ALT",
     {
