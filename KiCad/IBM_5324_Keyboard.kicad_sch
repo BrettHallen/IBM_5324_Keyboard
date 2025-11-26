@@ -905,12 +905,6 @@
 		(uuid "b7531dbb-a95e-4df0-a6d8-d3b10f6244f6")
 	)
 	(junction
-		(at 177.8 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b80e44fa-7dc1-4ec4-87ab-6a8b7d7c9744")
-	)
-	(junction
 		(at 111.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1149,12 +1143,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7fd0316-de07-408b-8cab-a66ab02dfe70")
-	)
-	(junction
-		(at 172.72 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe31d9d5-98ac-4407-8f4c-93946257506c")
 	)
 	(wire
 		(pts
@@ -1408,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 204.47 148.59)
+			(xy 204.47 132.08) (xy 204.47 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 34.29) (xy 172.72 48.26)
+			(xy 172.72 25.4) (xy 172.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 132.08) (xy 73.66 148.59)
+			(xy 73.66 132.08) (xy 73.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 139.7 148.59)
+			(xy 139.7 132.08) (xy 139.7 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 132.08) (xy 106.68 148.59)
+			(xy 106.68 132.08) (xy 106.68 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 67.31) (xy 233.68 67.31)
+			(xy 209.55 67.31) (xy 220.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1858,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 57.15 148.59)
+			(xy 57.15 132.08) (xy 57.15 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 39.37) (xy 233.68 39.37)
+			(xy 194.31 39.37) (xy 220.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2108,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 95.25) (xy 233.68 95.25)
+			(xy 209.55 95.25) (xy 220.98 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 132.08) (xy 172.72 148.59)
+			(xy 172.72 132.08) (xy 172.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 233.68 137.16)
+			(xy 209.55 137.16) (xy 220.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 109.22) (xy 233.68 109.22)
+			(xy 209.55 109.22) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2298,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 189.23 148.59)
+			(xy 189.23 132.08) (xy 189.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 233.68 53.34)
+			(xy 209.55 53.34) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2398,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 39.37) (xy 194.31 39.37)
+			(xy 161.29 39.37) (xy 194.31 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 132.08) (xy 156.21 148.59)
+			(xy 156.21 132.08) (xy 156.21 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 132.08) (xy 123.19 148.59)
+			(xy 123.19 132.08) (xy 123.19 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2628,17 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 39.37) (xy 177.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bc7a8c-2fea-4fb1-88df-1880b7b1726d")
-	)
-	(wire
-		(pts
-			(xy 209.55 81.28) (xy 233.68 81.28)
+			(xy 209.55 81.28) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 132.08) (xy 90.17 148.59)
+			(xy 90.17 132.08) (xy 90.17 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 233.68 124.46)
+			(xy 209.55 124.46) (xy 220.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 132.08) (xy 40.64 148.59)
+			(xy 40.64 132.08) (xy 40.64 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2898,16 +2876,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 25.4) (xy 172.72 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f29297fb-7c04-4f1a-a2fa-21530b3159b6")
-	)
-	(wire
-		(pts
 			(xy 106.68 34.29) (xy 106.68 48.26)
 		)
 		(stroke
@@ -2970,7 +2938,7 @@
 	)
 	(global_label "Col_H"
 		(shape input)
-		(at 156.21 148.59 270)
+		(at 156.21 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2980,7 +2948,7 @@
 		)
 		(uuid "0a6525d8-de20-48bd-b565-02bfd774f2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 156.9575 90)
+			(at 156.21 150.6075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3026,7 @@
 	)
 	(global_label "Col_A"
 		(shape input)
-		(at 40.64 148.59 270)
+		(at 40.64 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3068,7 +3036,7 @@
 		)
 		(uuid "1a4b8028-c58a-4685-903f-8fd6f5b04080")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 156.7156 90)
+			(at 40.64 150.3656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3048,7 @@
 	)
 	(global_label "Col_B"
 		(shape input)
-		(at 57.15 148.59 270)
+		(at 57.15 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3090,7 +3058,7 @@
 		)
 		(uuid "1bdae022-38a6-4b01-bbd4-c3f014494804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 156.897 90)
+			(at 57.15 150.547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3092,7 @@
 	)
 	(global_label "Row_5"
 		(shape input)
-		(at 233.68 95.25 0)
+		(at 220.98 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3134,7 +3102,7 @@
 		)
 		(uuid "46dbe2b1-013e-46b3-b782-d52fc6c1d535")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 95.25 0)
+			(at 229.8918 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3114,7 @@
 	)
 	(global_label "Row_3"
 		(shape input)
-		(at 233.68 67.31 0)
+		(at 220.98 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3156,7 +3124,7 @@
 		)
 		(uuid "4a433d68-7414-45f2-a1de-299544bf3c6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 67.31 0)
+			(at 229.8918 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3136,7 @@
 	)
 	(global_label "Col_D"
 		(shape input)
-		(at 90.17 148.59 270)
+		(at 90.17 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3178,7 +3146,7 @@
 		)
 		(uuid "4f9a59ba-a1bc-48ae-9eae-9c51a14df458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 156.897 90)
+			(at 90.17 150.547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3180,7 @@
 	)
 	(global_label "Row_6"
 		(shape input)
-		(at 233.68 109.22 0)
+		(at 220.98 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3222,7 +3190,7 @@
 		)
 		(uuid "6eccace0-7f9d-4a95-9d3e-210bdf57b41e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 109.22 0)
+			(at 229.8918 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3202,7 @@
 	)
 	(global_label "Col_J"
 		(shape input)
-		(at 189.23 148.59 270)
+		(at 189.23 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3244,7 +3212,7 @@
 		)
 		(uuid "8ee6ce43-e56c-44e7-8594-15d9456729d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 156.5946 90)
+			(at 189.23 150.2446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3224,7 @@
 	)
 	(global_label "Row_2"
 		(shape input)
-		(at 233.68 53.34 0)
+		(at 220.98 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3266,7 +3234,7 @@
 		)
 		(uuid "98b6cc57-0e44-4a8a-8190-3858b98bc3bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 53.34 0)
+			(at 229.8918 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3246,7 @@
 	)
 	(global_label "Col_F"
 		(shape input)
-		(at 123.19 148.59 270)
+		(at 123.19 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3288,7 +3256,7 @@
 		)
 		(uuid "98de89d0-8d10-4ed6-a5a3-7fc2b39e1646")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 156.7156 90)
+			(at 123.19 150.3656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3268,7 @@
 	)
 	(global_label "Row_6"
 		(shape input)
-		(at 233.68 124.46 0)
+		(at 220.98 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3310,7 +3278,7 @@
 		)
 		(uuid "9d000ea7-6cae-437f-a009-074d9dd3aad1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 124.46 0)
+			(at 229.8918 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3290,7 @@
 	)
 	(global_label "Col_E"
 		(shape input)
-		(at 106.68 148.59 270)
+		(at 106.68 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3332,7 +3300,7 @@
 		)
 		(uuid "a98447bd-bb76-4133-809f-d7667ed29630")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 156.776 90)
+			(at 106.68 150.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3334,7 @@
 	)
 	(global_label "Row_4"
 		(shape input)
-		(at 233.68 81.28 0)
+		(at 220.98 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3376,7 +3344,7 @@
 		)
 		(uuid "bbeb75eb-5c59-4a55-9563-80ee454308f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 81.28 0)
+			(at 229.8918 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3400,7 @@
 	)
 	(global_label "Row_1"
 		(shape input)
-		(at 233.68 39.37 0)
+		(at 220.98 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3442,7 +3410,7 @@
 		)
 		(uuid "c4fb58e6-5710-4b82-ac3f-acf2a11dbd87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 39.37 0)
+			(at 229.8918 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3444,7 @@
 	)
 	(global_label "Col_I"
 		(shape input)
-		(at 172.72 148.59 270)
+		(at 172.72 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3486,7 +3454,7 @@
 		)
 		(uuid "d9e4bb30-fb78-47d5-b40d-decd0b7ef37e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 156.2318 90)
+			(at 172.72 149.8818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3466,7 @@
 	)
 	(global_label "Col_G"
 		(shape input)
-		(at 139.7 148.59 270)
+		(at 139.7 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3508,7 +3476,7 @@
 		)
 		(uuid "dd627933-b2c7-42c9-a37b-d24e024f04a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 156.897 90)
+			(at 139.7 150.547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3488,7 @@
 	)
 	(global_label "Row_6"
 		(shape input)
-		(at 233.68 137.16 0)
+		(at 220.98 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3530,7 +3498,7 @@
 		)
 		(uuid "e447b5f1-aa45-4d59-ac58-8da55550b9ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5918 137.16 0)
+			(at 229.8918 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3510,7 @@
 	)
 	(global_label "Col_K"
 		(shape input)
-		(at 204.47 148.59 270)
+		(at 204.47 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3552,7 +3520,7 @@
 		)
 		(uuid "f75b17c4-2912-4ae2-ad4a-e3ec325c945f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 156.897 90)
+			(at 204.47 150.547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3554,7 @@
 	)
 	(global_label "Col_C"
 		(shape input)
-		(at 73.66 148.59 270)
+		(at 73.66 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3596,7 +3564,7 @@
 		)
 		(uuid "fe327a06-cf84-4a53-b504-eeb8138144df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 156.897 90)
+			(at 73.66 150.547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3660,7 @@
 				)
 			)
 		)
-		(property "Value" "1!"
+		(property "Value" "| 1"
 			(at 59.69 45.72 0)
 			(effects
 				(font
@@ -3760,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Value" "+*"
+		(property "Value" "* +"
 			(at 191.77 31.75 0)
 			(effects
 				(font
@@ -3828,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_."
+		(property "Value" "NP ."
 			(at 207.01 129.54 0)
 			(effects
 				(font
@@ -4032,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_0"
+		(property "Value" "NP 0"
 			(at 191.77 129.54 0)
 			(effects
 				(font
@@ -4100,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Value" "/?"
+		(property "Value" "? /"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -4168,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Value" "8*"
+		(property "Value" "* 8"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -4508,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_6"
+		(property "Value" "NP 6"
 			(at 207.01 87.63 0)
 			(effects
 				(font
@@ -4576,7 +4544,7 @@
 				)
 			)
 		)
-		(property "Value" "CAPS LOCK"
+		(property "Value" "SHIFT LOCK"
 			(at 59.69 73.66 0)
 			(effects
 				(font
@@ -4712,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_5"
+		(property "Value" "NP 5"
 			(at 191.77 87.63 0)
 			(effects
 				(font
@@ -4916,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Value" "RH_SHIFT"
+		(property "Value" "RH SHIFT"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -4984,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_9"
+		(property "Value" "NP 9"
 			(at 207.01 59.69 0)
 			(effects
 				(font
@@ -5256,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Value" "5%"
+		(property "Value" "% 5"
 			(at 92.71 45.72 0)
 			(effects
 				(font
@@ -5460,7 +5428,7 @@
 				)
 			)
 		)
-		(property "Value" "'\""
+		(property "Value" "\" '"
 			(at 158.75 87.63 0)
 			(effects
 				(font
@@ -5528,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Value" "`~"
+		(property "Value" "~ `"
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -5664,7 +5632,7 @@
 				)
 			)
 		)
-		(property "Value" "7&"
+		(property "Value" "& 7"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -5800,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Value" "2@"
+		(property "Value" "@ 2"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -5936,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Value" "<-"
+		(property "Value" "LH <-"
 			(at 43.18 129.54 0)
 			(effects
 				(font
@@ -6072,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Value" "\\|"
+		(property "Value" "| \\"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -6208,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Value" "."
+		(property "Value" ". ."
 			(at 158.75 116.84 0)
 			(effects
 				(font
@@ -6396,74 +6364,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 175.26 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87d99861-62e5-4eb1-95c3-b6167f42b7fd")
-		(property "Reference" "SW9"
-			(at 175.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "<-"
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 175.26 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03dc6865-0d55-40fe-ba75-6393139ff7b4")
-		)
-		(pin "1"
-			(uuid "8c33925d-2c3a-4c7d-95e6-b689cfade391")
-		)
-		(instances
-			(project ""
-				(path "/693952f1-30b5-49b2-9ce4-20453e633e98"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
 		(at 125.73 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6548,7 +6448,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_2"
+		(property "Value" "NP 2"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -6616,7 +6516,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_8"
+		(property "Value" "NP 8"
 			(at 191.77 45.72 0)
 			(effects
 				(font
@@ -6752,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_1"
+		(property "Value" "NP 1"
 			(at 191.77 101.6 0)
 			(effects
 				(font
@@ -7228,7 +7128,7 @@
 				)
 			)
 		)
-		(property "Value" "{}"
+		(property "Value" "} {"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -7296,7 +7196,7 @@
 				)
 			)
 		)
-		(property "Value" "=+"
+		(property "Value" "+ ="
 			(at 158.75 31.75 0)
 			(effects
 				(font
@@ -7364,7 +7264,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_7"
+		(property "Value" "NP 7"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -7500,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Value" "-/"
+		(property "Value" "/ -"
 			(at 207.01 45.72 0)
 			(effects
 				(font
@@ -7636,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Value" "9("
+		(property "Value" "( 9"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -7704,7 +7604,7 @@
 				)
 			)
 		)
-		(property "Value" ";:"
+		(property "Value" ": ;"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -8044,7 +7944,7 @@
 				)
 			)
 		)
-		(property "Value" "!¢"
+		(property "Value" "! ¢"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -8180,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Value" "4$"
+		(property "Value" "$ 4"
 			(at 92.71 31.75 0)
 			(effects
 				(font
@@ -8316,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Value" "<>"
+		(property "Value" "> <"
 			(at 76.2 116.84 0)
 			(effects
 				(font
@@ -8452,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_4"
+		(property "Value" "NP 4"
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -8588,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Value" "SHIFT"
+		(property "Value" "LH SHIFT"
 			(at 59.69 87.63 0)
 			(effects
 				(font
@@ -8656,7 +8556,7 @@
 				)
 			)
 		)
-		(property "Value" "3#"
+		(property "Value" "# 3"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -8724,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Value" ","
+		(property "Value" ", ,"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -8792,7 +8692,7 @@
 				)
 			)
 		)
-		(property "Value" "NP_3"
+		(property "Value" "NP 3"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -8860,7 +8760,7 @@
 				)
 			)
 		)
-		(property "Value" "-_"
+		(property "Value" "_ -"
 			(at 158.75 45.72 0)
 			(effects
 				(font
@@ -8996,7 +8896,7 @@
 				)
 			)
 		)
-		(property "Value" "6^"
+		(property "Value" "^ 6"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -9064,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Value" "+*"
+		(property "Value" "RH <-"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -9268,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Value" "0)"
+		(property "Value" ") 0"
 			(at 142.24 31.75 0)
 			(effects
 				(font
