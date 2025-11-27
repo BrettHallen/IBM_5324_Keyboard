@@ -15,7 +15,7 @@ The keyboard MCU has 11 drive lines to repeatedly scan the matrix - in my schema
 
 The increased capacitance of the active key's capacitor permits the drive-line (column) scan pulse to appear at one of the eight input lines to the sense amplifier - in my schematic these are the rows.<br>
 
-The MCU uses the combination of the active drive line (column) and sense amplifier input line (row) to determine a scan code character (1 of 88, 83 actually used).<br>
+The MCU uses the combination of the active drive line (column) and sense amplifier input line (row) to determine a scan code character (88 possible, 83 actually used).<br>
 
 An interrupt request is sent to the Model 5324 processing unit which will then read the scan code character.<br>
 
