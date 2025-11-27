@@ -1,5 +1,5 @@
-# IBM 5324 Keyboard
-Recreation of the keyboard for the IBM System/23 Model 5324.
+# IBM System/23 Model 5324 Keyboard
+Recreation of the keyboard for this computer to bring those without keyboards back to life.
 
 ## [Design References](/Design_Reference)
 ![Actual keyboard layout](/Design_Reference/IBM_5324_Keyboard_Keys.jpg)
