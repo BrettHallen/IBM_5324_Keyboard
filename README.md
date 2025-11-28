@@ -35,7 +35,7 @@ The MCU uses the combination of the active drive line (column) and sense amplifi
 
 In my design the columns and rows are pulled high.  To scan the keyboard matrix we take each column low in turn.  A key press is detected when the key switch shorts the row to the column, taking the row low which is detected by the controller.  The combination of column and row is translated to a 5324 scan code and put on the bus via a buffer to ensure the 5324 accurately reads the code.<br>
 
-An interrupt request is sent to the Model 5324 processing unit which will then read the scan code character.<br>
+An interrupt request (via DATA STROBE?) is sent to the Model 5324 processing unit which will then read the scan code character.<br>
 
 ## Key Caps
 [Key cap layout](https://gist.github.com/0ddjob/6a0642893fc0fdca74740a1e6c51e858)
