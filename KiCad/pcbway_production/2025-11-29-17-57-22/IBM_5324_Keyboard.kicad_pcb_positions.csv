@@ -1,12 +1,14 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
-402.28765,-178.421875,90.0,top,C1,,,CP_Radial_D5.0mm_P2.50mm,10µF,tht
-402.28765,-160.641875,0.0,top,D1,,,LED_D5.0mm,+5V,tht
-394.66765,-160.641875,0.0,top,D2,,,LED_D5.0mm,+12V,tht
+351.48765,-179.691875,90.0,top,C1,,,CP_Radial_D5.0mm_P2.50mm,10µF,tht
+411.17765,-168.261875,90.0,top,C2,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
+426.41765,-160.641875,-90.0,top,C3,,,C_Disc_D3.8mm_W2.6mm_P2.50mm,100nF,tht
+393.39765,-160.641875,0.0,top,D1,,,LED_D5.0mm,+5V,tht
+385.77765,-160.641875,0.0,top,D2,,,LED_D5.0mm,+12V,tht
 475.49265,-169.5702,180.0,top,J1,,,L717SDB25P1ACH3R,To 5324,tht
 475.49265,-176.9002,-90.0,top,J2,,,PinHeader_2x14_P2.54mm_Vertical,To DB25,tht
-416.25765,-164.451875,180.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
-416.25765,-160.641875,180.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
-374.34765,-160.641875,-90.0,top,RN1,,,R_Array_SIP9,4.7KΩ,tht
+407.36765,-164.451875,180.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
+407.36765,-160.641875,180.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
+390.85765,-183.501875,180.0,top,RN1,,,R_Array_SIP9,4.7KΩ,tht
 101.29765,-195.5802,0.0,top,SW1,,,SW_Cherry_MX_PCB,CMD,tht
 82.24765,-195.5802,0.0,top,SW10,,,SW_Cherry_MX_PCB,ERASE,tht
 158.44765,-195.5802,0.0,top,SW11,,,SW_Cherry_MX_PCB,| 1,tht
@@ -91,5 +93,6 @@
 448.96785,-271.7818,0.0,top,SW83,,,SW_Cherry_MX_PCB_2.00u,NP .,tht
 430.16765,-195.5802,0.0,top,SW9,,,SW_Cherry_MX_PCB_1.75u,* +,tht
 293.06765,-172.071875,180.0,top,U1,,,Teensy41,Teensy4.1,tht
-414.98765,-173.341875,0.0,top,U2,,,Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT,TSR 2-2450,tht
-420.06765,-160.641875,0.0,top,U3,,,DIP-20_W7.62mm,74HCT245,tht
+373.07765,-169.531875,90.0,top,U2,,,Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT,TSR 2-2450,tht
+414.98765,-160.641875,0.0,top,U3,,,DIP-20_W7.62mm,74HCT245,tht
+399.74765,-168.261875,0.0,top,U4,,,DIP-14_W7.62mm,74HCT125,tht
