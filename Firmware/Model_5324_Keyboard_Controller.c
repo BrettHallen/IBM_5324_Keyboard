@@ -1,4 +1,6 @@
 // IBM System/23 Model 5324 Keyboard Controller
+// For Teensy 4.1
+// https://github.com/BrettHallen/IBM_5324_Keyboard
 // Scan 11 columns, read 8 rows, output 7-bit scan code
 // Brett Hallen, Nov 2025
 // Port Macquarie, Australia
@@ -33,6 +35,7 @@
 
 const int NUM_COLS = 11;
 const int NUM_ROWS = 8;
+const int SCAN_CODE_BITS = 7;
 const int colPins[NUM_COLS] = {24,23,22,21,20,25,26,27,28,29,30}; // Columns A-K
 const int rowPins[NUM_ROWS] = {36,37,38,39,40,41,42,43};           // Rows 1-8
 const int bitPins[7] = {4,5,6,7,8,9,10};                           // Scan code bits 0-6 (LSB first)
@@ -99,30 +102,33 @@ byte makeBreakScanCode[NUM_ROWS][NUM_COLS] =
 void setup() 
 {
   Serial.begin(38400);
+  // Initialise the columns
   for (int i = 0; i < NUM_COLS; i++) 
   {
     pinMode(colPins[i], OUTPUT);
-    digitalWrite(colPins[i], HIGH);  // Inactive high
+    digitalWrite(colPins[i], HIGH); // active low
   }
+  // Initialise the rows
   for (int i = 0; i < NUM_ROWS; i++) 
   {
-    pinMode(rowPins[i], INPUT_PULLUP);
+    pinMode(rowPins[i]); // external pull-ups,  no need for internal
   }
-  for (int i = 0; i < 7; i++) 
+  // Initialise the scan code bus
+  for (int i = 0; i < SCAN_CODE_BITS; i++) 
   {
     pinMode(bitPins[i], OUTPUT);
-    digitalWrite(bitPins[i], LOW);  // Idle low
+    digitalWrite(bitPins[i], LOW); // 0x00 = no scan code
   }
   pinMode(dataStrobePin, OUTPUT);
-  digitalWrite(dataStrobePin, HIGH);  // Idle high
-  pinMode(delayStrobePin, INPUT_PULLUP);  // Optional system ACK
+  digitalWrite(dataStrobePin, HIGH); // Idle high
+  pinMode(delayStrobePin, INPUT_PULLUP); // Optional system ACK
   pinMode(resetPin, INPUT_PULLUP);
   // Init states
   memset(prevState, 0, sizeof(prevState));
   // Pulse reset on startup if needed
   if (digitalRead(resetPin) == LOW)
   	resetKeyboard();
-  Serial.println("IBM 5324 Keyboard Emulator Ready");
+  Serial.println("IBM System/23 Model 5324 Keyboard Emulator Ready");
 }
 
 void loop() 
@@ -186,8 +192,8 @@ void handleKeyPress(int row, int col)
     sendScanCode(code);
     if (isTypamatic[row][col]) 
     	lastTypamatic[row][col] = millis();
-    Serial.print("Key pressed (R"); Serial.print(row+1); Serial.print(" C"); Serial.print(col+1);
-    Serial.print("): 0x"); Serial.println(code, HEX);
+    Serial.print("Key pressed: Row "); Serial.print(row+1); Serial.print(", Column "); Serial.print((char)(col+65));
+    Serial.print(" --> 0x"); Serial.println(code, HEX);
   }
 }
 
@@ -197,8 +203,8 @@ void handleKeyRelease(int row, int col)
   if (code != 0x00) 
   {
     sendScanCode(code);  // Or invert: sendScanCode(code | 0x80); if system expects break
-    Serial.print("Key released (R"); Serial.print(row+1); Serial.print(" C"); Serial.print(col+1);
-    Serial.print("): 0x"); Serial.println(code, HEX);
+    Serial.print("Key released: Row "); Serial.print(row+1); Serial.print(", Column "); Serial.print((char)(col+65));
+    Serial.print(" --> 0x"); Serial.println(code, HEX);
   }
 }
 
