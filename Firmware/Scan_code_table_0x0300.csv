@@ -1,0 +1,90 @@
+Index (R2),Addr,ROM Byte,Key Legend,Break (HEX),Type,Notes
+00,0300,4A,NP .,,**,Keypad decimal; typamatic.
+01,0301,4D,FIELD +,,**,Typamatic.
+02,0302,43,NP 3,,**,Typamatic.
+03,0303,46,NP 6,,**,Typamatic.
+04,0304,4E,FIELD -,,**,Typamatic.
+05,0305,49,NP 9,,**,Typamatic.
+06,0306,4C,NP / -,,**,Typamatic.
+07,0307,5A,Unknown,,,Ghost or unused in U.S. layout.
+08,0308,40,NP 0,,**,Typamatic.
+09,0309,42,NP 2,,**,Typamatic.
+0A,030A,41,NP 1,,**,Typamatic.
+0B,030B,45,NP 5,,**,Typamatic.
+0C,030C,44,NP 4,,**,Typamatic.
+0D,030D,47,NP 7,,**,Typamatic.
+0E,030E,48,NP 8,,**,Typamatic.
+0F,030F,4B,NP * +,,**,Typamatic.
+10,0310,68,FIELD EXIT,78,*,Make/break; break = make
+11,0311,0B,RH SHIFT,7B,*,Make/break; break = make
+12,0312,56,NL,76,*,Make/break; break = make
+13,0313,59,} {,79,*,Make/break; break = make
+14,0314,2D,ENTER,,**,Typamatic.
+15,0315,2C,,\,,**
+16,0316,3D,BS,,**,Typamatic (backspace).
+17,0317,00,Unknown,,,Ghost/unused.
+18,0318,0A,? /,,**,Typamatic.
+19,0319,09,.,,**,Typamatic.
+1A,031A,1A,: ;,,**,Typamatic.
+1B,031B,1B,""" '",,**,Typamatic.
+1C,031C,2B,! ¢,,**,Typamatic.
+1D,031D,2A,P,,**,Typamatic.
+1E,031E,3B,_ -,,**,Typamatic.
+1F,031F,3C,+ =,,**,Typamatic.
+20,0320,08,",",,**,Typamatic.
+21,0321,07,M,,**,Typamatic.
+22,0322,18,K,,**,Typamatic.
+23,0323,19,L,,**,Typamatic.
+24,0324,29,O,,**,Typamatic.
+25,0325,28,I,,**,Typamatic.
+26,0326,39,) 0,,**,Typamatic.
+27,0327,3A,( 9,,**,Typamatic.
+28,0328,0F,SPACE,,**,Typamatic.
+29,0329,06,N,,**,Typamatic.
+2A,032A,00,Unknown,,,Ghost/unused.
+2B,032B,17,J,,**,Typamatic.
+2C,032C,27,U,,**,Typamatic.
+2D,032D,00,Unknown,,,Ghost/unused.
+2E,032E,00,Unknown,,,Ghost/unused.
+2F,032F,38,* 8,,**,Typamatic.
+30,0330,04,V,,**,Typamatic.
+31,0331,05,B,,**,Typamatic.
+32,0332,16,H,,**,Typamatic.
+33,0333,15,G,,**,Typamatic.
+34,0334,25,Y,,**,Typamatic.
+35,0335,26,T,,**,Typamatic.
+36,0336,37,& 7,,**,Typamatic.
+37,0337,36,^ 6,,**,Typamatic.
+38,0338,02,X,,**,Typamatic.
+39,0339,03,C,,**,Typamatic.
+3A,033A,14,F,,**,Typamatic.
+3B,033B,13,D,,**,Typamatic.
+3C,033C,23,R,,**,Typamatic.
+3D,033D,24,E,,**,Typamatic.
+3E,033E,35,% 5,,**,Typamatic.
+3F,033F,34,$ 4,,**,Typamatic.
+40,0340,01,Z,,**,Typamatic.
+41,0341,0E,> <,,**,Typamatic.
+42,0342,12,S,,**,Typamatic.
+43,0343,11,A,,**,Typamatic.
+44,0344,21,Q,,**,Typamatic.
+45,0345,22,W,,**,Typamatic.
+46,0346,33,# 3,,**,Typamatic.
+47,0347,32,@ 2,,**,Typamatic.
+48,0348,7E,ALT,5E,*,Make/break; break = make & ~0x20.
+49,0349,73,CUR RIGHT,,**,Typamatic; no break (suppressed).
+4A,034A,70,SCROLL DOWN,,**,Typamatic; no break.
+4B,034B,57,LH SHIFT,77,*,Make/break; break = make
+4C,034C,54,SHIFT LOCK,74,*,Make/break; break = make
+4D,034D,20,TAB,,,Make-only (no typamatic mark).
+4E,034E,31,! 1,,**,Typamatic.
+4F,034F,3E,~ `,,**,Typamatic.
+50,0350,72,CUR LEFT,,**,Typamatic; no break.
+51,0351,71,SCROLL UP,,**,Typamatic; no break.
+52,0352,7D,TEST,,,No break; diagnostic key.
+53,0353,6E,ERROR,,,No break.
+54,0354,6C,INQ,,,No break.
+55,0355,6D,HOLD,,,No break.
+56,0356,7C,ERASE,,**,Typamatic; no break listed (likely suppressed).
+57,0357,6F,CMD,7F,,Break = make
+58-87,0358-035F,00,Unknown,,,Padding/unused; 0x00 likely ghost positions.
