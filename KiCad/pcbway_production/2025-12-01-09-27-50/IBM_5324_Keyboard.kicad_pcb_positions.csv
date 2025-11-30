@@ -6,6 +6,7 @@
 385.77765,-160.641875,0.0,top,D2,,,LED_D5.0mm,+12V,tht
 475.49265,-169.5702,180.0,top,J1,,,L717SDB25P1ACH3R,To 5324,tht
 475.49265,-176.9002,-90.0,top,J2,,,PinHeader_2x14_P2.54mm_Vertical,To DB25,tht
+227.80765,-172.039375,90.0,top,J3,,,USB_B_Lumberg_2411_02_Horizontal,USB_B,tht
 407.36765,-164.451875,180.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
 407.36765,-160.641875,180.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,R,tht
 390.85765,-183.501875,180.0,top,RN1,,,R_Array_SIP9,4.7KΩ,tht

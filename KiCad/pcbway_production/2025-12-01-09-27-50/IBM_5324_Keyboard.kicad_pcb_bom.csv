@@ -5,6 +5,7 @@ D1,1,+5V,LED_D5.0mm,,,,tht,Light emitting diode,1=K 2=A
 D2,1,+12V,LED_D5.0mm,,,,tht,Light emitting diode,1=K 2=A
 J1,1,To 5324,L717SDB25P1ACH3R,,,,tht,"25-pin D-SUB connector, pins (male), Mounting Hole",
 J2,1,To DB25,PinHeader_2x14_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x14, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)",
+J3,1,USB_B,USB_B_Lumberg_2411_02_Horizontal,,,,tht,USB Type B connector,
 KB1,1,SPACE,Stabilizer_Cherry_MX_8.00u,,,,tht,,
 KB2,1,FIELD+,Stabilizer_Cherry_MX_3.00u,,,,tht,,
 "R1, R2",2,R,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor,
